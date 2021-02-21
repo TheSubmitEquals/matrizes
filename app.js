@@ -1,9 +1,13 @@
-import { createMatrixA, getMatrixAValue } from './src/matrixA.js'
-import { createMatrixB, getMatrixBValue } from './src/matrixB.js'
-import { createMatrixC, getMatrixCValue } from './src/matrixC.js'
-import { createMatrixD, getMatrixDValue } from './src/matrixD.js'
+import { createMatrixA } from './src/matrixA.js'
+import { createMatrixB } from './src/matrixB.js'
+import { createMatrixC } from './src/matrixC.js'
+import { createMatrixD } from './src/matrixD.js'
+import { letterA, letterB } from './src/exercise/app.js';
 
 console.log(createMatrixA());
 console.log(createMatrixB());
 console.log(createMatrixC());
 console.log(createMatrixD());
+
+console.log(letterA)
+console.log(letterB)
