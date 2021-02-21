@@ -1,14 +1,14 @@
-export function getMatrixCValue(linha,coluna) {
-    linha++;
-    coluna++;
+export function getMatrixCValue(line,column) {
+    line++;
+    column++;
     
-    if (linha === coluna) {
+    if (line === column) {
     
         return 1;
     
     } else {
     
-        return linha * coluna;
+        return line * column;
     
     }
 
@@ -17,11 +17,11 @@ export function getMatrixCValue(linha,coluna) {
 export function createMatrixC () {
     let matrixC = new Array(new Array, new Array)
     
-    for (let linha = 0; linha < 2; linha++) {
+    for (let line = 0; line < 2; line++) {
 
-        for (let coluna = 0; coluna < 3; coluna++) {
+        for (let column = 0; column < 3; column++) {
 
-            matrixC[linha][coluna] = getMatrixCValue(linha,coluna); 
+            matrixC[line][column] = getMatrixCValue(line,column); 
 
         }
 

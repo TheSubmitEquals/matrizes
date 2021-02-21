@@ -1,21 +1,21 @@
-export function getMatrixDValue(linha,coluna) {
-    linha++;
-    coluna++;
-    if (linha === coluna) {
-        return 3 * linha;
+export function getMatrixDValue(line,column) {
+    line++;
+    column++;
+    if (line === column) {
+        return 3 * line;
     } else {
-        return linha - coluna ** 2;
+        return line - column ** 2;
     }
 }
 
 export function createMatrixD() {
     let matrixD = new Array(new Array, new Array, new Array);
 
-    for (let linha = 0; linha < 3; linha++) {
+    for (let line = 0; line < 3; line++) {
         
-        for (let coluna = 0; coluna < 1; coluna ++) {
+        for (let column = 0; column < 1; column ++) {
         
-            matrixD[linha][coluna] = getMatrixDValue(linha, coluna);
+            matrixD[line][column] = getMatrixDValue(line, column);
         
         }
     
