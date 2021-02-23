@@ -34,7 +34,7 @@ export function subtraction(matrixTransposed, matrixB) {
 
 }
 
-export function multiply(matrixB) {
+export function multiplyByTwo(matrixB) {
 
     let matrixResult = new Array(new Array(), new Array(), new Array())
 
