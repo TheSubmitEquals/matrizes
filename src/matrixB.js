@@ -1,11 +1,13 @@
-export function getMatrixBValue(line, column) {
+import { Matrix } from "./exercise/matrix.js"
+
+function getMatrixBValue(line, column) {
     line++;
     column++;
     return line/column;
 }
 
 
-export const createMatrixB = () => {
+const createMatrixB = () => {
     let matrixB = new Array(new Array(3), new Array(3), new Array(3));
     for (let line = 0; line < 3; line++) {
 
@@ -19,3 +21,5 @@ export const createMatrixB = () => {
 
     return matrixB;
 }
+
+export const matrixB = new Matrix(3,3,createMatrixB());

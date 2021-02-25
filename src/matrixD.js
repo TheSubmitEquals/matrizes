@@ -1,3 +1,5 @@
+import { Matrix } from "./exercise/matrix.js"
+
 export function getMatrixDValue(line,column) {
     line++;
     column++;
@@ -23,3 +25,5 @@ export function createMatrixD() {
 
     return matrixD;
 }
+
+export const matrixD = new Matrix(3,1,createMatrixD());
