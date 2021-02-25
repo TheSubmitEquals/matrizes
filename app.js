@@ -1,14 +1,10 @@
-import { createMatrixA } from './src/matrixA.js'
-import { createMatrixB } from './src/matrixB.js'
-import { createMatrixC } from './src/matrixC.js'
-import { createMatrixD } from './src/matrixD.js'
-import { letterA, letterB, letterC } from './src/exercise/app.js';
+import { letterA, letterB, letterC, letterD, letterE, letterF } from './src/exercise/app.js';
 
-console.log(createMatrixA());
-console.log(createMatrixB());
-console.log(createMatrixC());
-console.log(createMatrixD());
-
-console.log(letterA);
-console.log(letterB);
-console.log(letterC);
+console.log("========= Exercicio 1 =========")
+console.log("Resultado Letra A: ", letterA);
+console.log("Resultado Letra B: ", letterB);
+console.log("Resultado Letra C: ", letterC);
+console.log("Resultado Letra D: ", letterD);
+console.log("Resultado Letra E: ", letterE);
+console.log("Resultado Letra F: ", letterF);
+console.log("===============================");
