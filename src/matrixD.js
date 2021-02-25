@@ -1,4 +1,4 @@
-import { Matrix } from "./exercise/matrix.js"
+import { Matrix } from "./matrix.js"
 
 export function getMatrixDValue(line,column) {
     line++;

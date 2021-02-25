@@ -1,7 +1,7 @@
-import { matrixA } from '../matrixA.js';
-import { matrixB } from '../matrixB.js';
-import { matrixC } from '../matrixC.js';
-import { matrixD } from '../matrixD.js';
+import { matrixA } from './matrixA.js';
+import { matrixB } from './matrixB.js';
+import { matrixC } from './matrixC.js';
+import { matrixD } from './matrixD.js';
 import { Matrix } from './matrix.js';
 
 export const letterA = matrixA.sum(matrixA, matrixB);

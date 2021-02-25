@@ -1,4 +1,4 @@
-import { letterA, letterB, letterC, letterD, letterE, letterF } from './src/exercise/app.js';
+import { letterA, letterB, letterC, letterD, letterE, letterF } from './src/app.js';
 
 console.log("========= Exercicio 1 =========")
 console.log("Resultado Letra A: ", letterA);
